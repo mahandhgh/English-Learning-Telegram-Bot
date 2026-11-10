@@ -1,4 +1,3 @@
-# Credentials and local environment configuration
 .env
 .env.*
 !.env.example
@@ -6,7 +5,6 @@
 *.pem
 *.key
 
-# Python environments, bytecode, and build artifacts
 .venv/
 venv/
 env/
@@ -16,7 +14,7 @@ __pycache__/
 /build/
 /dist/
 
-# Learner data, SQLite journals, exports, and upload packages
+/assets/
 /data/
 /output/
 /release/
@@ -33,11 +31,9 @@ __pycache__/
 *.sqlite3-wal
 *.sqlite3-shm
 
-# Local Persian guides; public setup and roadmap are in README.md
 /HOSTING.md
 /ROADMAP.md
 
-# Test/tool caches, reports, logs, and temporary files
 /.setup-temp/
 .pytest_cache/
 .mypy_cache/
@@ -50,7 +46,6 @@ __pycache__/
 *.tmp
 *.bak
 
-# Local editor and operating-system files
 .idea/
 .vscode/
 .DS_Store

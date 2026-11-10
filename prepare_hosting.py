@@ -13,6 +13,8 @@ FILES = (
     "course_authoring.py", "extended_course.py", "course_starter.py", "course_beginner.py",
     "course_intermediate.py", "course_upper.py", "course_advanced.py",
     "course_supplement.py",
+    "assets/readme/hero.png", "assets/readme/learning-loop.gif",
+    "assets/readme/learning-loop-poster.png", "assets/readme/divider.svg",
 )
 
 
